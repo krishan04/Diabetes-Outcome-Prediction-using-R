@@ -7,9 +7,13 @@ This project aims to develop and compare multiple predictive models using a diab
 The following R packages are required for this project:
 
   -caret
+  
   -e1071
+  
   -rpart
+  
   -class
+  
   -ggplot2
 
 ## Steps in the Analysis
@@ -30,8 +34,11 @@ Splits the dataset into training (80%) and testing (20%) subsets using createDat
 ### Model Building:
 The following models are implemented:
    -k-Nearest Neighbors (k-NN): A simple, instance-based learning algorithm.
+   
    -Naive Bayes: A probabilistic classifier based on Bayes' theorem.
+   
    -Logistic Regression: A statistical model used for binary classification.
+   
    -Decision Tree: A tree-based model that makes predictions based on feature splits.
    
 ### Model Evaluation and Comparison:
